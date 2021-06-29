@@ -8,6 +8,9 @@
 html {
 	scroll-behavior: smooth;
 }
+body {
+    font-family: 'Rubik', sans-serif;
+}
 /*menu header*/
 header{
     position: fixed;
@@ -24,8 +27,7 @@ nav li {
 nav li a {
     text-decoration: none;
     font-size: 14px ;
-    font-weight: bold;
-    font-family: 'Rubik', sans-serif;
+    font-weight: bold;    
     color: black;
     line-height: 30px ;
     text-align: center;
@@ -33,15 +35,12 @@ nav li a {
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2)  ;
-    
-    
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2)  ;        
 }
 /*main*/
 section {
     position: relative;
     height: 100vh;
-
 }
 .bg-red {
     background-color: coral;
@@ -51,5 +50,22 @@ section {
 }
 .bg-yellow {
     background-color: darkorange;
+}
+/*sezione immagini*/
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+.scarpe {
+    display: inline-block;
+    height: 80%;
+}
+.img-info{
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
