@@ -11,6 +11,11 @@ html {
 body {
     font-family: 'Rubik', sans-serif;
 }
+/*sezione hover*/
+.main-nav li:hover a {
+    opacity: 0.6;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.4)  ;    
+}
 /*menu header*/
 header{
     position: fixed;
@@ -35,7 +40,7 @@ nav li a {
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2)  ;        
+         
 }
 /*main*/
 section {
