@@ -33,7 +33,23 @@ nav li a {
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    box-shadow: 0 2px 2px 2px  #cecaca;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2)  ;
     
+    
+}
+/*main*/
+section {
+    position: relative;
+    height: 100vh;
+
+}
+.bg-red {
+    background-color: coral;
+}
+.bg-green {
+    background-color: seagreen;
+}
+.bg-yellow {
+    background-color: darkorange;
 }
 
